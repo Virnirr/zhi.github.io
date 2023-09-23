@@ -21,6 +21,10 @@ nav {
   margin-bottom: 2em;
 }
 
+main {
+  margin-bottom: 100px;
+}
+
 nav h1 a {
   text-decoration: none;
   color: white;
@@ -78,12 +82,16 @@ nav h1 a:hover {
 /* portfolio css */
 .project-details {
   display: flex;
-  justify-content: center;
-  margin-top: 50px;
+  justify-content: space-around;
+  margin: 50px 10% 10% 100px;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .project-details img {
-  width: 600px;
+  width: 500px;
 }
 
 .project-details-text {
@@ -91,6 +99,7 @@ nav h1 a:hover {
   flex-direction: column;
   justify-content: center;
   font-size: 16px;
+  margin-left: 10px;
 }
 
 .project-details-text p {
@@ -116,6 +125,7 @@ main .resume * {
   margin-bottom: 20px;
 }
 
+/* footer  */
 footer {
   position: fixed;
   left: 0px;
@@ -124,6 +134,7 @@ footer {
   background: black;
   color: white;
   padding: 15px;
+  margin-top: 50px;
 }
 
 .entry-title {
@@ -141,8 +152,11 @@ footer {
 
 label {
   display: block;
+  width: 50%;
   margin-bottom: 0.5rem;
   font-weight: bold;
+  text-align: left;
+  margin: 10px auto;
 }
 
 input,
